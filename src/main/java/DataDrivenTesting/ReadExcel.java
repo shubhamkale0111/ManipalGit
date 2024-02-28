@@ -25,7 +25,7 @@ public class ReadExcel {
 	public void fblogin() throws IOException {
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\DELL\\Downloads\\chromedriver-win64\\chromedriver-win64/chromedriver.exe");
+				"C:\\Users\\DELL\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.facebook.com/");
 		driver.manage().window().maximize();
