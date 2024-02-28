@@ -1,4 +1,4 @@
-package DataDrivenTesting;
+package TestNG;
 
 import java.io.File;
 import java.io.FileInputStream;

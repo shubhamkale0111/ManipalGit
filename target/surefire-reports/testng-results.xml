@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T13:04:26 IST" name="Suite" finished-at="2024-02-28T13:04:38 IST" duration-ms="11414">
+  <suite started-at="2024-02-28T17:47:36 IST" name="Suite" finished-at="2024-02-28T17:47:47 IST" duration-ms="10608">
     <groups>
     </groups>
-    <test started-at="2024-02-28T13:04:26 IST" name="Test" finished-at="2024-02-28T13:04:38 IST" duration-ms="11414">
+    <test started-at="2024-02-28T17:47:36 IST" name="Test" finished-at="2024-02-28T17:47:47 IST" duration-ms="10608">
       <class name="DataDrivenTesting.WriteExcel">
-        <test-method signature="fblogin()[pri:0, instance:DataDrivenTesting.WriteExcel@31e5415e]" started-at="2024-02-28T13:04:32 IST" name="fblogin" finished-at="2024-02-28T13:04:38 IST" duration-ms="5353" status="PASS">
+        <test-method signature="fblogin()[pri:0, instance:DataDrivenTesting.WriteExcel@31e5415e]" started-at="2024-02-28T17:47:42 IST" name="fblogin" finished-at="2024-02-28T17:47:47 IST" duration-ms="4740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fblogin -->
       </class> <!-- DataDrivenTesting.WriteExcel -->
       <class name="DataDrivenTesting.ReadExcel">
-        <test-method signature="fblogin()[pri:0, instance:DataDrivenTesting.ReadExcel@44821a96]" started-at="2024-02-28T13:04:26 IST" name="fblogin" finished-at="2024-02-28T13:04:32 IST" duration-ms="6005" status="PASS">
+        <test-method signature="fblogin()[pri:0, instance:DataDrivenTesting.ReadExcel@44821a96]" started-at="2024-02-28T17:47:36 IST" name="fblogin" finished-at="2024-02-28T17:47:42 IST" duration-ms="5817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fblogin -->
