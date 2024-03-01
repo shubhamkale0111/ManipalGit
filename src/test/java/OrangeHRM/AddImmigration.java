@@ -43,10 +43,15 @@ public static WebDriver driver;
 		
 		//Click on add immigration
 		driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--text']")).click();
-		driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]")).sendKeys("Adj");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]")).sendKeys("1235465");
+		Thread.sleep(1000);
 		driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[3]")).sendKeys("2023-7-10");
+		Thread.sleep(1000);
 		driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[4]")).sendKeys("2025-7-8");
+		Thread.sleep(1000);
 		driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[5]")).sendKeys("2023-5-10");
+		Thread.sleep(1000);
 		
 		WebElement ele1 = driver.findElement(By.xpath("//div[@class='oxd-select-text oxd-select-text--active']"));
 		
