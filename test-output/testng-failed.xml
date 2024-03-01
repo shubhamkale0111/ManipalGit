@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="DataDrivenTesting.WriteExcel">
+      <class name="OrangeHRM.Attachment">
         <methods>
-          <include name="fblogin"/>
+          <include name="testlogin"/>
         </methods>
-      </class> <!-- DataDrivenTesting.WriteExcel -->
+      </class> <!-- OrangeHRM.Attachment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

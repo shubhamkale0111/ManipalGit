@@ -71,6 +71,11 @@
 
 </dependency>
 
+  	<dependency>
+  		<groupId>AxisQA</groupId>
+  		<artifactId>TestNG</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
   
   <build>
