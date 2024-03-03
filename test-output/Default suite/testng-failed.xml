@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="OrangeHRM.Attachment">
+      <class name="SeleniumGrid.Selenium4GridTest">
         <methods>
-          <include name="testlogin"/>
+          <include name="invalidCredentials"/>
+          <include name="setDriver"/>
+          <include name="closeBrowser"/>
+          <include name="loginPageHeading"/>
         </methods>
-      </class> <!-- OrangeHRM.Attachment -->
+      </class> <!-- SeleniumGrid.Selenium4GridTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
